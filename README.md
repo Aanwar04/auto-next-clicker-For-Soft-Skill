@@ -2,9 +2,6 @@
 
 Automatically clicks "Next" buttons after countdown timers complete.
 
-## 📸 Screenshot
-
-[Add screenshot of your extension in action]
 
 ## ✨ Features
 

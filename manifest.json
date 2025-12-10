@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Next Button Clicker",
+  "version": "1.0.0",
+  "description": "Automatically clicks Next buttons after countdown timers complete",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}
